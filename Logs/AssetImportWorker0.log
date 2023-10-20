@@ -1,0 +1,280 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.9f1 (ad3870b89536) revision 11352176'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'ru' Physical Memory: 16129 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Valit Mila/Valit Mila Space Shooter
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58311
+Successfully changed project path to: C:/Users/Valit Mila/Valit Mila Space Shooter
+C:/Users/Valit Mila/Valit Mila Space Shooter
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 156.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.9f1 (ad3870b89536)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Valit Mila/Valit Mila Space Shooter/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3991 MB
+    Driver:   30.0.15.1278
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015860 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 135.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.948 seconds
+Domain Reload Profiling:
+	ReloadAssembly (949ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (660ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (156ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (398ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (80ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (136ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (129ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.016324 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Valit Mila\Valit Mila Space Shooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Valit Mila\Valit Mila Space Shooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 146.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.903 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1904ms)
+		BeginReloadAssembly (261ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (134ms)
+		EndReloadAssembly (1457ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (357ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (128ms)
+			SetupLoadedEditorAssemblies (769ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (147ms)
+				BeforeProcessingInitializeOnLoad (149ms)
+				ProcessInitializeOnLoadAttributes (376ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4432 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (412.8 KB). Loaded Objects now: 4883.
+Memory consumption went from 245.4 MB to 245.0 MB.
+Total: 4.331300 ms (FindLiveObjects: 0.444400 ms CreateObjectMapping: 0.358600 ms MarkObjects: 3.270800 ms  DeleteObjects: 0.256200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 542364.013497 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/TutorialInfo
+  artifactKey: Guid(77c780bf9cd02e441b1de46f397200cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/TutorialInfo using Guid(77c780bf9cd02e441b1de46f397200cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e4b65c6879b1800090903261fc3b0ea') in 0.019380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.254244 seconds.
+  path: Assets/Episodes/episode_a.asset
+  artifactKey: Guid(38948e7cdd86e6340abf0a4868c54990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Episodes/episode_a.asset using Guid(38948e7cdd86e6340abf0a4868c54990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8cf59d8e2f01f7915ce4aaa96b543d0') in 0.071843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.284464 seconds.
+  path: Assets/Fonts/Cyberpunk-Regular.ttf
+  artifactKey: Guid(571390de886d8194099786fe22198199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Cyberpunk-Regular.ttf using Guid(571390de886d8194099786fe22198199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c9c51a374fa36b2a412bf8e9bf493c') in 0.148778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fonts/DigitalGothicItalic.ttf
+  artifactKey: Guid(15a1e8cde5f4d0248a35b63302154997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/DigitalGothicItalic.ttf using Guid(15a1e8cde5f4d0248a35b63302154997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f23d3e7c6dc4dfe84301f085754a437') in 0.037218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Fonts/DigitalGothicInverse.ttf
+  artifactKey: Guid(a601b1bbc65b01d4a8703666a9023df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/DigitalGothicInverse.ttf using Guid(a601b1bbc65b01d4a8703666a9023df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9195878ff6ec8be3a39da7b0b3cc7ec') in 0.035269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Fonts/DigitalGothic.ttf
+  artifactKey: Guid(54391a91a3f5c6649855253dc642128b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/DigitalGothic.ttf using Guid(54391a91a3f5c6649855253dc642128b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f764f35a31cc571e4fbd5d00779aaff0') in 0.041870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Fonts/Gaslight with russian Cyrillic.ttf
+  artifactKey: Guid(214a3b6af5e9f4242a0f1af29824da44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Gaslight with russian Cyrillic.ttf using Guid(214a3b6af5e9f4242a0f1af29824da44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5ac23c9e920c0da6f4eb2719f4a8c4') in 0.041286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Fonts/DigitalGothicHollowInverse.ttf
+  artifactKey: Guid(798aaeaa76c879743b03a211b16fc22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/DigitalGothicHollowInverse.ttf using Guid(798aaeaa76c879743b03a211b16fc22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50995e9afcc50ba6f5cb9b72e98b1c7d') in 0.035013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fonts/DigitalGothicBoldItalic.ttf
+  artifactKey: Guid(3a48aa5fc7214874a83804018f0f2052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/DigitalGothicBoldItalic.ttf using Guid(3a48aa5fc7214874a83804018f0f2052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6141c4747e6aba8d18b4c5a03eb525c5') in 0.033627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.550107 seconds.
+  path: Assets/Prefabs/EnemyShip_01.prefab
+  artifactKey: Guid(19f7b31af6ed85a42b4d82b1cb25b736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyShip_01.prefab using Guid(19f7b31af6ed85a42b4d82b1cb25b736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90d36f9e907178bf0f92045eb3d9245') in 0.520252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Prefabs/Ship_01.prefab
+  artifactKey: Guid(40c6450cb566db24e97e5d26ba7f7283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ship_01.prefab using Guid(40c6450cb566db24e97e5d26ba7f7283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b0b292f4f980ef3a28e3baf640281c') in 0.386255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Prefabs/SharedObjects.prefab
+  artifactKey: Guid(e38fbf82ba74c9645818ff6f6d35d549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SharedObjects.prefab using Guid(e38fbf82ba74c9645818ff6f6d35d549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a721c189bd0a244307482a2926df0c9') in 0.537170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.811894 seconds.
+  path: Assets/Sounds/9095b890ed157c5.mp3
+  artifactKey: Guid(461b3c2e6ec2868419e93208cde94011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/9095b890ed157c5.mp3 using Guid(461b3c2e6ec2868419e93208cde94011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9fccd6d5ce2a4e6df1d1a56bb191b4') in 0.177993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sounds/vzryiv-bolshoy-hlopushki-v-tsirke.mp3
+  artifactKey: Guid(08549fefb23cf094d826bc2d4d763a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/vzryiv-bolshoy-hlopushki-v-tsirke.mp3 using Guid(08549fefb23cf094d826bc2d4d763a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8242fdd221835fefaa678830aeede3a1') in 0.034041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sounds/ExplosionSound.mp3
+  artifactKey: Guid(f40ad9e8bd11fd54cb07be41fcc9b864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/ExplosionSound.mp3 using Guid(f40ad9e8bd11fd54cb07be41fcc9b864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659c294b36ebfbd4d6afe31f0c2155d4') in 0.025454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sounds/shumnyiy-vzryiv-meteorita.mp3
+  artifactKey: Guid(b6c8f3570f155ff48bb721de71f49272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/shumnyiy-vzryiv-meteorita.mp3 using Guid(b6c8f3570f155ff48bb721de71f49272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49fdc5c53a4198968cf2715d8b09679f') in 0.033256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sounds/mp3_466476.mp3
+  artifactKey: Guid(cf813a19ec6d5a94b8c66885e815b891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/mp3_466476.mp3 using Guid(cf813a19ec6d5a94b8c66885e815b891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146cdaac4536e46b5ff5da1b6b1a73d4') in 0.029880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sounds/vyistrelyi-iz-blastera-23706.mp3
+  artifactKey: Guid(211a289cf41b3804e89398662f15ba74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/vyistrelyi-iz-blastera-23706.mp3 using Guid(211a289cf41b3804e89398662f15ba74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f6bd054c3fcb7cc9cdac33dd193eaa') in 0.025006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.127822 seconds.
+  path: Assets/Textures/Mat_Stars001.mat
+  artifactKey: Guid(564423cc132cd6f4d92e19702e452e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Mat_Stars001.mat using Guid(564423cc132cd6f4d92e19702e452e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0f9ae90cc6e2ac0b48d0ec7d99fe32') in 0.045227 seconds 

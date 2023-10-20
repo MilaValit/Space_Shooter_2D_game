@@ -1,0 +1,256 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.9f1 (ad3870b89536) revision 11352176'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'ru' Physical Memory: 16129 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Valit Mila/Valit Mila Space Shooter
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+58311
+Successfully changed project path to: C:/Users/Valit Mila/Valit Mila Space Shooter
+C:/Users/Valit Mila/Valit Mila Space Shooter
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 164.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.9f1 (ad3870b89536)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Valit Mila/Valit Mila Space Shooter/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3991 MB
+    Driver:   30.0.15.1278
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013783 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 127.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.938 seconds
+Domain Reload Profiling:
+	ReloadAssembly (939ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (659ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (165ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (388ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (82ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (128ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (122ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015809 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Valit Mila\Valit Mila Space Shooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Valit Mila\Valit Mila Space Shooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 144.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.909 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1910ms)
+		BeginReloadAssembly (261ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (130ms)
+		EndReloadAssembly (1472ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (379ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (110ms)
+			SetupLoadedEditorAssemblies (769ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (145ms)
+				BeforeProcessingInitializeOnLoad (146ms)
+				ProcessInitializeOnLoadAttributes (376ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4432 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (412.8 KB). Loaded Objects now: 4883.
+Memory consumption went from 245.4 MB to 245.0 MB.
+Total: 2.855600 ms (FindLiveObjects: 0.301200 ms CreateObjectMapping: 0.154200 ms MarkObjects: 2.178500 ms  DeleteObjects: 0.221000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 542366.660942 seconds.
+  path: Assets/Fonts/Cyberpunk.ttf
+  artifactKey: Guid(ddb2f73d32c5ec441b251a03852d2570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Cyberpunk.ttf using Guid(ddb2f73d32c5ec441b251a03852d2570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868d4ec45d49c585de98ee0b5e689aa9') in 0.166612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Fonts/Encrypto.ttf
+  artifactKey: Guid(76044c5aafc084e46b06460027477e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Encrypto.ttf using Guid(76044c5aafc084e46b06460027477e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b79012ee44bdcd4148f82b5727588e3') in 0.050312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Fonts/Potra.ttf
+  artifactKey: Guid(7772ac3115167af4db756b90754ac3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Potra.ttf using Guid(7772ac3115167af4db756b90754ac3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92aa4492676dd1208a153de2fb61b5db') in 0.044052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fonts/DigitalGothicHollow.ttf
+  artifactKey: Guid(e13495ddfddf99641bbbe02a917428be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/DigitalGothicHollow.ttf using Guid(e13495ddfddf99641bbbe02a917428be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3ed3b2103a3eb9aa5c9856bfcc9194') in 0.048685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Fonts/DigitalGothicBold.ttf
+  artifactKey: Guid(ddf772ee90a8fb64e8e8802bddac4fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/DigitalGothicBold.ttf using Guid(ddf772ee90a8fb64e8e8802bddac4fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f1db266a2a97ce73859a691479d7cb') in 0.033845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fonts/Potra_cyr.ttf
+  artifactKey: Guid(a0828cc3d076e144b80443ec1332b732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Potra_cyr.ttf using Guid(a0828cc3d076e144b80443ec1332b732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3c0b732ca4cd50f40d3a90252a1c0b') in 0.032701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.556127 seconds.
+  path: Assets/Prefabs/EnemyShip_02.prefab
+  artifactKey: Guid(201545f227c9fd84ba2f3ae21cad842a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyShip_02.prefab using Guid(201545f227c9fd84ba2f3ae21cad842a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8d1cb8f6e6bd5dfed405c691a568d1') in 0.517453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/Ship_02.prefab
+  artifactKey: Guid(81ffe6a5f1728004f93071331f3fc4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ship_02.prefab using Guid(81ffe6a5f1728004f93071331f3fc4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '237a724f521a41b973f0182c8cc83264') in 0.360224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Prefabs/Ship_03.prefab
+  artifactKey: Guid(4666cf0562df8314182f981fff44e11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ship_03.prefab using Guid(4666cf0562df8314182f981fff44e11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e38f83bc813d7f826013d81a2b58ba6') in 0.225317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.156541 seconds.
+  path: Assets/Sounds/13879_1459869261.mp3
+  artifactKey: Guid(d7ef27956a1953d4fb58843480f16185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/13879_1459869261.mp3 using Guid(d7ef27956a1953d4fb58843480f16185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb847d55200346910c6a317f53929f56') in 0.166991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sounds/plasma_gun_05.mp3
+  artifactKey: Guid(60c4b5f113f14544780a459947370136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/plasma_gun_05.mp3 using Guid(60c4b5f113f14544780a459947370136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905043fd9ebf2ab454cfc0fd6b407c72') in 0.036277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sounds/vystrel-tanka-1.mp3
+  artifactKey: Guid(0837cda157fd2c649b17f580030383c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/vystrel-tanka-1.mp3 using Guid(0837cda157fd2c649b17f580030383c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f075f8ee140ae484edb19bd194d76822') in 0.039352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sounds/ExplosionSound 1.mp3
+  artifactKey: Guid(0f803e04408aec446a6e67264955028e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/ExplosionSound 1.mp3 using Guid(0f803e04408aec446a6e67264955028e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66454e210d88d899becc33ebe66423e4') in 0.030795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Sounds/vyistrelyi.mp3
+  artifactKey: Guid(92ddb0c1cc1e9d84393924ce2436f199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/vyistrelyi.mp3 using Guid(92ddb0c1cc1e9d84393924ce2436f199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0212e82be33bba64a9d35f8d09b0c2') in 0.021627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.163971 seconds.
+  path: Assets/Textures/texture_stars_001.jpg
+  artifactKey: Guid(e277009ed8df0c94baa74ca5892fcaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/texture_stars_001.jpg using Guid(e277009ed8df0c94baa74ca5892fcaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46ad7c370ff49184fc8a51540da5d3a') in 0.083640 seconds 
