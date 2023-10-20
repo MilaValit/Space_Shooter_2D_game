@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 15a1e8cde5f4d0248a35b63302154997
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Digital Gothic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 54391a91a3f5c6649855253dc642128b, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
